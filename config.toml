@@ -1,4 +1,4 @@
-baseurl = "http://localhost:1313"
+baseurl = "http://research.majuric.org"
 title = "Mario Jurić :: Research"
 copyright = "&copy; 2016 Mario Jurić"
 theme = "academic"

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mario Jurić :: Research on Mario Jurić :: Research</title>
-    <link>https://mjuric.github.io/research.majuric.org/index.xml</link>
+    <link>http://research.majuric.org/index.xml</link>
     <description>Recent content in Mario Jurić :: Research on Mario Jurić :: Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Mario Jurić</copyright>
     <lastBuildDate>Fri, 20 May 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/research.majuric.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ASTR 497: Big Data in Astronomy: Hands-on with Large Surveys</title>
-      <link>https://mjuric.github.io/research.majuric.org/teaching/astr497/</link>
+      <link>http://research.majuric.org/teaching/astr497/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mjuric.github.io/research.majuric.org/teaching/astr497/</guid>
+      <guid>http://research.majuric.org/teaching/astr497/</guid>
       <description>
 
 &lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;
@@ -55,10 +55,10 @@ The goal of this course is to introduce you to research with large survey data, 
     
     <item>
       <title>ASTR 597: Big Data in Astronomy: Introduction to Large Surveys</title>
-      <link>https://mjuric.github.io/research.majuric.org/teaching/astr597/</link>
+      <link>http://research.majuric.org/teaching/astr597/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mjuric.github.io/research.majuric.org/teaching/astr597/</guid>
+      <guid>http://research.majuric.org/teaching/astr597/</guid>
       <description>
 
 &lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;
@@ -98,10 +98,10 @@ While focused on astronomical surveys, the course may be suitable advanced under
     
     <item>
       <title>Galactic Structure</title>
-      <link>https://mjuric.github.io/research.majuric.org/project/galactic-structure/</link>
+      <link>http://research.majuric.org/project/galactic-structure/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mjuric.github.io/research.majuric.org/project/galactic-structure/</guid>
+      <guid>http://research.majuric.org/project/galactic-structure/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;m interested in the structure and evolution of our galaxy, the Milky Way. This research has resulted in discoveries of streams in the Galactic halo, &lt;a title=&#34;Milky Way Models&#34; href=&#34;http://research.majuric.org/wp/?page_id=68&#34;&gt;accurate models of Milky Way&amp;rsquo;s stellar content&lt;/a&gt; that form the basis for predictions related to LSST science, as well as a fast GPU-accelerated stellar catalog code &lt;a title=&#34;galfast&#34; href=&#34;http://research.majuric.org/wp/?page_id=28&#34;&gt;&lt;em&gt;galfast&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -149,15 +149,15 @@ my collaborators and I constructed one of the most accurate empirical models of 
     
     <item>
       <title>Large Survey Database</title>
-      <link>https://mjuric.github.io/research.majuric.org/project/lsd/</link>
+      <link>http://research.majuric.org/project/lsd/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mjuric.github.io/research.majuric.org/project/lsd/</guid>
+      <guid>http://research.majuric.org/project/lsd/</guid>
       <description>
 
 &lt;h2 id=&#34;large-survey-database&#34;&gt;Large Survey Database&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://mjuric.github.io/research.majuric.org/img/lsd-ps1-footprint.jpg&#34; style=&#34;float: left; width: 400px; margin: 20px; margin-left: 0px;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://research.majuric.org/img/lsd-ps1-footprint.jpg&#34; style=&#34;float: left; width: 400px; margin: 20px; margin-left: 0px;&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;The &lt;a href=&#34;http://lsddb.org&#34;&gt;Large Survey Database&lt;/a&gt; (LSD) is a Python framework and DBMS for distributed storage, cross-matching and querying of large survey catalogs (&amp;gt;10&lt;sup&gt;9&lt;/sup&gt; rows, &amp;gt;1 TB). The primary driver behind its development is the analysis of &lt;a href=&#34;http://pan-starrs.ifa.hawaii.edu/public/&#34;&gt;Pan-STARRS PS1&lt;/a&gt; data. It is optimized for fast queries and parallel sweeps of positionally and temporally indexed datasets. It transparently scales to more than &amp;gt;10&lt;sup&gt;2&lt;/sup&gt; nodes, and can be made to function in &amp;ldquo;shared nothing&amp;rdquo; architectures. It&amp;rsquo;s been written and maintained by &lt;a title=&#34;Mario Juric&#34; href=&#34;http://research.majuric.org/wp/?page_id=37&#34;&gt;Mario Juric&lt;/a&gt;.&lt;/p&gt;
 
@@ -184,10 +184,10 @@ my collaborators and I constructed one of the most accurate empirical models of 
     
     <item>
       <title>Large Synoptic Survey Telescope</title>
-      <link>https://mjuric.github.io/research.majuric.org/project/lsst/</link>
+      <link>http://research.majuric.org/project/lsst/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mjuric.github.io/research.majuric.org/project/lsst/</guid>
+      <guid>http://research.majuric.org/project/lsst/</guid>
       <description>
 
 &lt;h2 id=&#34;lsst-data-management-project-science&#34;&gt;LSST Data Management Project Science&lt;/h2&gt;
@@ -242,10 +242,10 @@ the user interfaces enabling the access to and analyses of data.&lt;/p&gt;
     
     <item>
       <title>galfast</title>
-      <link>https://mjuric.github.io/research.majuric.org/project/galfast/</link>
+      <link>http://research.majuric.org/project/galfast/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mjuric.github.io/research.majuric.org/project/galfast/</guid>
+      <guid>http://research.majuric.org/project/galfast/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;&lt;i&gt;galfast&lt;/i&gt;&lt;/strong&gt; (&lt;a href=&#34;http://adsabs.harvard.edu/abs/2008ApJ...673..864J&#34;&gt;Juric et al. 2008&lt;/a&gt;, see also &lt;a href=&#34;http://adsabs.harvard.edu/abs/2010AAS...21540125J&#34;&gt;Juric et al. 2010, 401.25, BAAS, 42&lt;/a&gt;) is a GPU-accelerated generator of flux-limited realizations of Galactic models. It is capable of generating catalogs for arbitrary, user-supplied Milky Way models, including empirically derived ones. The built-in model set is based on fits to SDSS stellar observations over 8000 deg&lt;sup&gt;2&lt;/sup&gt; of the sky, described in the &lt;a title=&#34;The SDSS Milky Way Model&#34; href=&#34;http://research.majuric.org/wp/galactic-structure/milky-way-models/&#34;&gt;“Milky Way Tomography with SDSS”&lt;/a&gt; series of papers (Juric et al. 2008, Ivezic et al. 2008, Bond et al. 2010). It includes a three-dimensional dust distribution map based on Amores and Lepine (2005), and Schlegel et al. (1998).&lt;/p&gt;

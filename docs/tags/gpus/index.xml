@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gpus on Mario Jurić :: Research</title>
-    <link>https://mjuric.github.io/research.majuric.org/tags/gpus/index.xml</link>
+    <link>http://research.majuric.org/tags/gpus/index.xml</link>
     <description>Recent content in Gpus on Mario Jurić :: Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Mario Jurić</copyright>
-    <atom:link href="/research.majuric.org/tags/gpus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/gpus/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>galfast</title>
-      <link>https://mjuric.github.io/research.majuric.org/project/galfast/</link>
+      <link>http://research.majuric.org/project/galfast/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mjuric.github.io/research.majuric.org/project/galfast/</guid>
+      <guid>http://research.majuric.org/project/galfast/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;&lt;i&gt;galfast&lt;/i&gt;&lt;/strong&gt; (&lt;a href=&#34;http://adsabs.harvard.edu/abs/2008ApJ...673..864J&#34;&gt;Juric et al. 2008&lt;/a&gt;, see also &lt;a href=&#34;http://adsabs.harvard.edu/abs/2010AAS...21540125J&#34;&gt;Juric et al. 2010, 401.25, BAAS, 42&lt;/a&gt;) is a GPU-accelerated generator of flux-limited realizations of Galactic models. It is capable of generating catalogs for arbitrary, user-supplied Milky Way models, including empirically derived ones. The built-in model set is based on fits to SDSS stellar observations over 8000 deg&lt;sup&gt;2&lt;/sup&gt; of the sky, described in the &lt;a title=&#34;The SDSS Milky Way Model&#34; href=&#34;http://research.majuric.org/wp/galactic-structure/milky-way-models/&#34;&gt;“Milky Way Tomography with SDSS”&lt;/a&gt; series of papers (Juric et al. 2008, Ivezic et al. 2008, Bond et al. 2010). It includes a three-dimensional dust distribution map based on Amores and Lepine (2005), and Schlegel et al. (1998).&lt;/p&gt;

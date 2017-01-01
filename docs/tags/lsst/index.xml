@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lsst on Mario Jurić :: Research</title>
-    <link>https://mjuric.github.io/research.majuric.org/tags/lsst/index.xml</link>
+    <link>http://research.majuric.org/tags/lsst/index.xml</link>
     <description>Recent content in Lsst on Mario Jurić :: Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Mario Jurić</copyright>
-    <atom:link href="/research.majuric.org/tags/lsst/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/lsst/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Large Synoptic Survey Telescope</title>
-      <link>https://mjuric.github.io/research.majuric.org/project/lsst/</link>
+      <link>http://research.majuric.org/project/lsst/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mjuric.github.io/research.majuric.org/project/lsst/</guid>
+      <guid>http://research.majuric.org/project/lsst/</guid>
       <description>
 
 &lt;h2 id=&#34;lsst-data-management-project-science&#34;&gt;LSST Data Management Project Science&lt;/h2&gt;

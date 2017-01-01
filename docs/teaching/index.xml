@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teachings on Mario Jurić :: Research</title>
-    <link>https://mjuric.github.io/research.majuric.org/teaching/index.xml</link>
+    <link>http://research.majuric.org/teaching/index.xml</link>
     <description>Recent content in Teachings on Mario Jurić :: Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Mario Jurić</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/research.majuric.org/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ASTR 497: Big Data in Astronomy: Hands-on with Large Surveys</title>
-      <link>https://mjuric.github.io/research.majuric.org/teaching/astr497/</link>
+      <link>http://research.majuric.org/teaching/astr497/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mjuric.github.io/research.majuric.org/teaching/astr497/</guid>
+      <guid>http://research.majuric.org/teaching/astr497/</guid>
       <description>
 
 &lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;
@@ -55,10 +55,10 @@ The goal of this course is to introduce you to research with large survey data, 
     
     <item>
       <title>ASTR 597: Big Data in Astronomy: Introduction to Large Surveys</title>
-      <link>https://mjuric.github.io/research.majuric.org/teaching/astr597/</link>
+      <link>http://research.majuric.org/teaching/astr597/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mjuric.github.io/research.majuric.org/teaching/astr597/</guid>
+      <guid>http://research.majuric.org/teaching/astr597/</guid>
       <description>
 
 &lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;

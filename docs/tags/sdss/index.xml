@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sdss on Mario Jurić :: Research</title>
-    <link>https://mjuric.github.io/research.majuric.org/tags/sdss/index.xml</link>
+    <link>http://research.majuric.org/tags/sdss/index.xml</link>
     <description>Recent content in Sdss on Mario Jurić :: Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Mario Jurić</copyright>
-    <atom:link href="/research.majuric.org/tags/sdss/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/sdss/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Galactic Structure</title>
-      <link>https://mjuric.github.io/research.majuric.org/project/galactic-structure/</link>
+      <link>http://research.majuric.org/project/galactic-structure/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mjuric.github.io/research.majuric.org/project/galactic-structure/</guid>
+      <guid>http://research.majuric.org/project/galactic-structure/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;m interested in the structure and evolution of our galaxy, the Milky Way. This research has resulted in discoveries of streams in the Galactic halo, &lt;a title=&#34;Milky Way Models&#34; href=&#34;http://research.majuric.org/wp/?page_id=68&#34;&gt;accurate models of Milky Way&amp;rsquo;s stellar content&lt;/a&gt; that form the basis for predictions related to LSST science, as well as a fast GPU-accelerated stellar catalog code &lt;a title=&#34;galfast&#34; href=&#34;http://research.majuric.org/wp/?page_id=28&#34;&gt;&lt;em&gt;galfast&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;

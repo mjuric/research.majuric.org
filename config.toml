@@ -17,6 +17,7 @@ defaultContentLanguageInSubdir = false
 
 #[blackfriday]
 #  hrefTargetBlank = true
+   sourceRelativeLinksEval = true
 
 [params]
   name = "Mario Jurić"

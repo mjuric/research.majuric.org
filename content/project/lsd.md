@@ -28,9 +28,9 @@ math = false
 
 ## Large Survey Database
 
-<img src="/img/lsd-ps1-footprint.jpg" style="float: left; width: 400px; margin: 20px; margin-left: 0px;">
+<img src="/public/img/lsd-ps1-footprint.jpg" style="float: left; width: 400px; margin: 20px; margin-left: 0px;">
 
-The <a href="http://lsddb.org">Large Survey Database</a> (LSD) is a Python framework and DBMS for distributed storage, cross-matching and querying of large survey catalogs (&gt;10<sup>9</sup> rows, &gt;1 TB). The primary driver behind its development is the analysis of <a href="http://pan-starrs.ifa.hawaii.edu/public/">Pan-STARRS PS1</a> data. It is optimized for fast queries and parallel sweeps of positionally and temporally indexed datasets. It transparently scales to more than &gt;10<sup>2</sup> nodes, and can be made to function in "shared nothing" architectures. It's been written and maintained by <a title="Mario Juric" href="http://research.majuric.org/wp/?page_id=37">Mario Juric</a>.
+The <a href="http://lsddb.org">Large Survey Database</a> (LSD) is a Python framework and DBMS for distributed storage, cross-matching and querying of large survey catalogs (&gt;10<sup>9</sup> rows, &gt;1 TB). The primary driver behind its development is the analysis of <a href="http://pan-starrs.ifa.hawaii.edu/public/">Pan-STARRS PS1</a> data. It is optimized for fast queries and parallel sweeps of positionally and temporally indexed datasets. It transparently scales to more than &gt;10<sup>2</sup> nodes, and can be made to function in "shared nothing" architectures.
 
 An LSD database consists of a set of vertically and horizontally partitioned tables, physically stored as compressed HDF5 files. Vertically, the tables are partitioned into sets of related columns ('column groups'), grouping together logically related data (e.g., astrometry, photometry). Horizontally, the tables are partitioned into partially overlapping ``cells'' by position in space (lon, lat) and time (t). This organization allows for fast lookups based on spatial and temporal coordinates, as well as data and task distribution. The design was inspired by the success of Google BigTable (<a href="http://research.google.com/archive/bigtable.html">Chang et al., 2006</a>).
 

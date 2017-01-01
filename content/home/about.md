@@ -50,10 +50,8 @@ Washington](http://www.washington.edu), and a Senior Data Science Fellow of
 the [University of Washington eScience
 Institute](http://escience.washington.edu/). 
 
-I am also the <a title="LSST: Processing and Analyzing
-Petascale Datasets" href="http://research.majuric.org/wp/?page_id=23">Data
-Management Project Scientist</a> for the [Large Synoptic Survey
-Telescope](http://ls.st).
+I am also the [Data Management Project Scientist](project/lsst) 
+for the [Large Synoptic Survey Telescope](http://lsst.org).
 
 This website keeps summaries and pointers to various papers, results, code,
 and talks related to my group's research.  Use the top level menus to navigate the

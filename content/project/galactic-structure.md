@@ -27,7 +27,8 @@ math = false
 +++
 
 
-I'm interested in the structure and evolution of our galaxy, the Milky Way. This research has resulted in discoveries of streams in the Galactic halo, <a title="Milky Way Models" href="http://research.majuric.org/wp/?page_id=68">accurate models of Milky Way's stellar content</a> that form the basis for predictions related to LSST science, as well as a fast GPU-accelerated stellar catalog code <a title="galfast" href="http://research.majuric.org/wp/?page_id=28"><em>galfast</em></a>.
+I'm interested in the structure and evolution of our galaxy, the Milky Way. This research has resulted in discoveries of streams in the Galactic halo, accurate models of Milky Way's stellar content that form the basis for predictions related to LSST science, as well as a fast GPU-accelerated stellar catalog code
+[<em>galfast</em>](../galfast).
 
 ## Is the Milky Way's stellar halo triaxial?
 

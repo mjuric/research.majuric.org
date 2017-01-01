@@ -43,15 +43,11 @@ weight = 1
 
 &nbsp;
 
-I am a [Washington Research Foundation](http://www.wrfseattle.org) Data
-Science Professor of Astronomy at the [Department of
-Astronomy](http://www.astro.washington.edu) of the [University of
-Washington](http://www.washington.edu), and a Senior Data Science Fellow of
-the [University of Washington eScience
-Institute](http://escience.washington.edu/). 
-
-I am also the [Data Management Project Scientist](project/lsst) 
-for the [Large Synoptic Survey Telescope](http://lsst.org).
+I am a professor of astronomy at the [Department of Astronomy](http://www.astro.washington.edu)
+of the [University of Washington](http://www.washington.edu), and a Senior Data Science Fellow of
+the [University of Washington eScience Institute](http://escience.washington.edu/).
+I presently hold the [Washington Research Foundation](http://www.wrfseattle.org) Data
+Science Term Chair.
 
 This website keeps summaries and pointers to various papers, results, code,
 and talks related to my group's research.  Use the top level menus to navigate the

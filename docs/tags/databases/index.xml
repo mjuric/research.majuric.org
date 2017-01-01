@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Databases on Mario Jurić :: Research</title>
+    <link>https://mjuric.github.io/research.majuric.org/tags/databases/index.xml</link>
+    <description>Recent content in Databases on Mario Jurić :: Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Mario Jurić</copyright>
+    <atom:link href="/research.majuric.org/tags/databases/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Large Survey Database</title>
+      <link>https://mjuric.github.io/research.majuric.org/project/lsd/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mjuric.github.io/research.majuric.org/project/lsd/</guid>
+      <description>
+
+&lt;h2 id=&#34;large-survey-database&#34;&gt;Large Survey Database&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://mjuric.github.io/research.majuric.org/img/lsd-ps1-footprint.jpg&#34; style=&#34;float: left; width: 400px; margin: 20px; margin-left: 0px;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://lsddb.org&#34;&gt;Large Survey Database&lt;/a&gt; (LSD) is a Python framework and DBMS for distributed storage, cross-matching and querying of large survey catalogs (&amp;gt;10&lt;sup&gt;9&lt;/sup&gt; rows, &amp;gt;1 TB). The primary driver behind its development is the analysis of &lt;a href=&#34;http://pan-starrs.ifa.hawaii.edu/public/&#34;&gt;Pan-STARRS PS1&lt;/a&gt; data. It is optimized for fast queries and parallel sweeps of positionally and temporally indexed datasets. It transparently scales to more than &amp;gt;10&lt;sup&gt;2&lt;/sup&gt; nodes, and can be made to function in &amp;ldquo;shared nothing&amp;rdquo; architectures. It&amp;rsquo;s been written and maintained by &lt;a title=&#34;Mario Juric&#34; href=&#34;http://research.majuric.org/wp/?page_id=37&#34;&gt;Mario Juric&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;An LSD database consists of a set of vertically and horizontally partitioned tables, physically stored as compressed HDF5 files. Vertically, the tables are partitioned into sets of related columns (&amp;lsquo;column groups&amp;rsquo;), grouping together logically related data (e.g., astrometry, photometry). Horizontally, the tables are partitioned into partially overlapping ``cells&amp;rdquo; by position in space (lon, lat) and time (t). This organization allows for fast lookups based on spatial and temporal coordinates, as well as data and task distribution. The design was inspired by the success of Google BigTable (&lt;a href=&#34;http://research.google.com/archive/bigtable.html&#34;&gt;Chang et al., 2006&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Our programming model is a pipelined extension of MapReduce (&lt;a href=&#34;http://research.google.com/archive/mapreduce.html&#34;&gt;Dean and Ghemawat, 2004&lt;/a&gt;). An SQL-like query language is used to access data. For complex tasks, MapReduce ``kernels&amp;rdquo; that operate on query results on a per-cell basis can be written, with the framework taking care of their distribution, scheduling, and execution. The combination leverages the users&amp;rsquo; familiarity with SQL, while offering a fully distributed computing environment.&lt;/p&gt;
+
+&lt;p&gt;LSD adds little overhead compared to direct Python file I/O. In tests, we sweeped through 1.1 Grows of PanSTARRS+SDSS data (220GB) less than 15 minutes on an 8-core machine. In a cluster environment, data rates of 14Gbits/sec (I/O limited) were achieved. Based on current experience, we believe LSD will scale to be useful for analysis and storage of LSST-scale datasets.&lt;/p&gt;
+
+&lt;p&gt;LSD has and active user community, and has been successfully applied to storage and analysis of a multitude of large astronomical data sets, including PanSTARRS PS1, SDSS, PHAT, WISE, PTF, 2MASS, GALEX, and others.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;more-information&#34;&gt;More Information&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Website:&lt;/strong&gt; &lt;a title=&#34;Large Survey Database website&#34; href=&#34;http://lsddb.org&#34;&gt;&lt;a href=&#34;http://lsddb.org&#34;&gt;http://lsddb.org&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mailing list archive:&lt;/strong&gt; &lt;a title=&#34;Mailing list archive&#34; href=&#34;http://goo.gl/l5EFil&#34;&gt;lsd-users google group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Source code:&lt;/strong&gt; &lt;a href=&#34;https://github.com/mjuric/lsd&#34;&gt;https://github.com/mjuric/lsd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grant:&lt;/strong&gt; STSci/HST-HF-51255.01-A (&lt;em&gt;&amp;ldquo;Mapping Galactic Structure, Formation, and Evolution with Pan-STARRS&amp;rdquo;&lt;/em&gt;, Hubble Fellowship)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

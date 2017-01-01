@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lsst on Mario Jurić :: Research</title>
+    <link>https://mjuric.github.io/research.majuric.org/tags/lsst/index.xml</link>
+    <description>Recent content in Lsst on Mario Jurić :: Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Mario Jurić</copyright>
+    <atom:link href="/research.majuric.org/tags/lsst/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Large Synoptic Survey Telescope</title>
+      <link>https://mjuric.github.io/research.majuric.org/project/lsst/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mjuric.github.io/research.majuric.org/project/lsst/</guid>
+      <description>
+
+&lt;h2 id=&#34;lsst-data-management-project-science&#34;&gt;LSST Data Management Project Science&lt;/h2&gt;
+
+&lt;p&gt;I am the Project Scientist responsible for the &lt;a href=&#34;http://dm.lsst.org&#34;&gt;Data Management
+System&lt;/a&gt; for the &lt;a href=&#34;http://lsst.org&#34;&gt;Large Synoptic Survey Telecope&lt;/a&gt;.
+The LSST Project Science group&amp;rsquo;s task is to ensure LSST&amp;rsquo;s DM system delivers
+excellent science quality data products and services (we&amp;rsquo;re the &lt;a href=&#34;https://www.mountaingoatsoftware.com/agile/scrum/product-owner&#34;&gt;Product
+Owners&lt;/a&gt; of
+the LSST&amp;rsquo;s Data Management system).&lt;/p&gt;
+
+&lt;p&gt;LSST&amp;rsquo;s team of 80+ researchers and IT experts,
+distributed among LSST in Tucson, Princeton University, University of
+Washington, SLAC, NCSA and IPAC, is developing the data processing system
+for LSST.  The work includes the science pipelines (the image processing software to
+detect and characterize sources on images, detect moving objects, build
+co-added images, difference images, etc.), the middleware layer that manages
+the robust execution on large computing clusters, the distributed database
+(call qserv) to store and serve the resulting catalogs, as well as
+the user interfaces enabling the access to and analyses of data.&lt;/p&gt;
+
+&lt;p&gt;Given the size and expected quality of the dataset, we&amp;rsquo;re breaking new grounds in virtually all these areas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Image processing:&lt;/strong&gt; We&amp;rsquo;re developing a new (general purpose) O/IR image processing system and researching algorithms capable of controlling measurement systematics to the level required for characterization of Dark Energy. We&amp;rsquo;re pushing the state-of-the art in identification and linking of Solar System objects, to make LSST the most efficient asteroid-finding mission in history.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Middleware:&lt;/strong&gt; Our science pipelines must scale from operating on a single laptop with a hard drive, to a 100,000+ core cluster with a mass store system (tape library), and live through 8+ years of construction and 10+ years of operations. The transient alert system must reliably difference images and detect transients in 60 seconds.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Infrastructure:&lt;/strong&gt; 6.4 GB images will be transmitted within seconds over 10+ gigabit networks from Chile to NCSA in Illinois. LSST is one of the drivers of multi-gigabit long-haul network infrastructure build-up between Chile and North America.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Database:&lt;/strong&gt; Our database must store 10+ PB of LSST catalogs, and enable complex analyses and data mining. We are developing a fault-tolerant distributed database product, based on existing well-developed open-source tools, to meet this need.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;User interfaces:&lt;/strong&gt; We are developing UIs designed to enable querying and visualization of the LSST data set, as well as enable machine-driven access to it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More information can be found at the &lt;a href=&#34;http://lsst.org&#34;&gt;LSST Project&lt;/a&gt; web page, and the &lt;a href=&#34;http://dm.lsst.org&#34;&gt;LSST Data Management&lt;/a&gt; pages.&lt;/p&gt;
+
+&lt;h2 id=&#34;group-members&#34;&gt;Group Members&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mario Juric&lt;/li&gt;
+&lt;li&gt;Melissa Graham&lt;/li&gt;
+&lt;li&gt;Colin Slater&lt;/li&gt;
+&lt;li&gt;Eric Bellm&lt;/li&gt;
+&lt;li&gt;Jim Bosch (Princeton)&lt;/li&gt;
+&lt;li&gt;David Ciardi (CalTech/IPAC)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;more-information&#34;&gt;More Information&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Grant:&lt;/strong&gt; &lt;a href=&#34;https://www.nsf.gov/awardsearch/showAward?AWD_ID=1227061&#34;&gt;NSF/AST-1227061&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

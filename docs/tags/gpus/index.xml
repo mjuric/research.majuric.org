@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gpus on Mario Jurić :: Research</title>
+    <link>https://mjuric.github.io/research.majuric.org/tags/gpus/index.xml</link>
+    <description>Recent content in Gpus on Mario Jurić :: Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Mario Jurić</copyright>
+    <atom:link href="/research.majuric.org/tags/gpus/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>galfast</title>
+      <link>https://mjuric.github.io/research.majuric.org/project/galfast/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mjuric.github.io/research.majuric.org/project/galfast/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;&lt;i&gt;galfast&lt;/i&gt;&lt;/strong&gt; (&lt;a href=&#34;http://adsabs.harvard.edu/abs/2008ApJ...673..864J&#34;&gt;Juric et al. 2008&lt;/a&gt;, see also &lt;a href=&#34;http://adsabs.harvard.edu/abs/2010AAS...21540125J&#34;&gt;Juric et al. 2010, 401.25, BAAS, 42&lt;/a&gt;) is a GPU-accelerated generator of flux-limited realizations of Galactic models. It is capable of generating catalogs for arbitrary, user-supplied Milky Way models, including empirically derived ones. The built-in model set is based on fits to SDSS stellar observations over 8000 deg&lt;sup&gt;2&lt;/sup&gt; of the sky, described in the &lt;a title=&#34;The SDSS Milky Way Model&#34; href=&#34;http://research.majuric.org/wp/galactic-structure/milky-way-models/&#34;&gt;“Milky Way Tomography with SDSS”&lt;/a&gt; series of papers (Juric et al. 2008, Ivezic et al. 2008, Bond et al. 2010). It includes a three-dimensional dust distribution map based on Amores and Lepine (2005), and Schlegel et al. (1998).&lt;/p&gt;
+
+&lt;p&gt;Because of the capability to use empirically derived models, &lt;i&gt;galfast&lt;/i&gt; typically produces closer matches to the actual observed counts and color-magnitude diagrams. In particular, &lt;i&gt;galfast&lt;/i&gt;-generated catalogs are used to derive the stellar component of  “Universe Model” catalogs used by the &lt;a title=&#34;LSST: Processing and Analyzing Petascale Datasets&#34; href=&#34;http://research.majuric.org/wp/survey-science/lsst/&#34;&gt;LSST Project&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A key distinguishing characteristic of &lt;i&gt;galfast&lt;/i&gt; is its speed. &lt;i&gt;Galfast&lt;/i&gt; uses the GPU (with kernels written in NVIDIA C/C++ for CUDA) to offload compute intensive model sampling computations to the GPU. On a mid-range GPU (single Tesla S1070 GPU), it is typically 25x to 200x faster than similar CPU implementations, depending on the details of the simulation being performed. This enables generation of realistic catalogs to full LSST depth in hours (instead of days or weeks), making it possible to study proposed science cases with high precision.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, using the acceleration techniques developed for &lt;i&gt;galfast&lt;/i&gt;, observational error distributions derived from observations or simulations (e.g., ImSim, in case of LSST), and the storage/query engines from &lt;a title=&#34;Large Survey Database&#34; href=&#34;http://research.majuric.org/wp/survey-science/large-survey-database/&#34;&gt;LSD&lt;/a&gt;, we should be able to fully forward-model large survey datasets. Besides understanding the global properties of the observed datasets, this will allow us to mine for and discover rare and unexpected features.&lt;i&gt;
+&lt;/i&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;more-information&#34;&gt;More Information&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Documentation: &lt;a title=&#34;galfast Documentation&#34; href=&#34;http://mwscience.net/trac/wiki/galfast&#34;&gt;&lt;a href=&#34;http://mwscience.net/trac/wiki/galfast&#34;&gt;http://mwscience.net/trac/wiki/galfast&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source on github: &lt;a href=&#34;https://github.com/mjuric/galfast&#34;&gt;https://github.com/mjuric/galfast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

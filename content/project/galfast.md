@@ -37,5 +37,5 @@ Ultimately, using the acceleration techniques developed for <i>galfast</i>, obse
 
 ## More Information
 
- * Documentation: <a title="galfast Documentation" href="http://mwscience.net/trac/wiki/galfast">http://mwscience.net/trac/wiki/galfast</a>
+ * Documentation: <a title="galfast Documentation" href="https://github.com/mjuric/galfast/wiki">https://github.com/mjuric/galfast/wiki</a>
  * Source on github: <a href="https://github.com/mjuric/galfast">https://github.com/mjuric/galfast</a>

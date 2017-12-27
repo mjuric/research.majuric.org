@@ -24,6 +24,7 @@ weight = 60
  * Enrollment: 10 max
  * Credits: 2
  * Prerequisites: ASTR 300
+ * Syllabus: [see here](astr-302-w18-syllabus.pdf)
 
 ## Description
 

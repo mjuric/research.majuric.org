@@ -26,11 +26,13 @@ math = false
 
 +++
 
-## LSST Data Management Project Science
+## LSST Data Management
 
-I am the Project Scientist responsible for the [Data Management
-System](http://dm.lsst.org) for the [Large Synoptic Survey Telecope](http://lsst.org).
-The LSST Project Science group's task is to ensure LSST's DM system delivers
+I was the Subsystem Scientist responsible for the [Data Management
+System](http://dm.lsst.org) for the [Large Synoptic Survey Telecope](http://lsst.org)
+from January 2012 through September 2017. At preset, I serve as the
+Coordinator of the LSST's DM System Science Team (SST).
+The SST's task is to ensure LSST's DM system delivers
 excellent science quality data products and services (we're the [Product
 Owners](https://www.mountaingoatsoftware.com/agile/scrum/product-owner) of
 the LSST's Data Management system).
@@ -55,14 +57,12 @@ Given the size and expected quality of the dataset, we're breaking new grounds i
 
 More information can be found at the [LSST Project](http://lsst.org) web page, and the [LSST Data Management](http://dm.lsst.org) pages.
 
-## Group Members
+## Group Members at UW
 
  * Mario Juric
  * Melissa Graham
  * Colin Slater
- * Eric Bellm
- * Jim Bosch (Princeton)
- * David Ciardi (CalTech/IPAC)
+ * Chris Suberlak
 
 ## More Information
 

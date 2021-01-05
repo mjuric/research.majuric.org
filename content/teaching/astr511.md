@@ -18,7 +18,7 @@ Presented by [Mario Jurić](http://research.majuric.org) and [Željko Ivezić](h
 
 ## Location
 
- * When: 1:30-2:50 Tue & 2:00-3:20 Thu, Winter quarter 2020-2021
+ * When: 2:00-3:20 TTh, Winter quarter 2020-2021
  * Where: Virtual (Zoom)
 
 ## Description

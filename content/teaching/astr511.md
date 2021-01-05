@@ -2,10 +2,10 @@
 # An example of using the custom widget to create your own homepage section.
 # To create more sections, duplicate this file and edit the values below as desired.
 
-date = "2017-01-03T00:00:00"
+date = "2021-01-03T00:00:00"
 draft = false
 
-title = "ASTR 511: Galaxies as Galaxies (Winter 2017)"
+title = "ASTR 511: Galaxies as Galaxies (Winter 2021)"
 subtitle = ""
 widget = "custom"
 
@@ -18,9 +18,8 @@ Presented by [Mario Jurić](http://research.majuric.org) and [Željko Ivezić](h
 
 ## Location
 
- * When: 2:20-3:40, Tue & Thu, Winter quarter 2016-2017
- * Where: PAB B305 (Physics-Astronomy Building, 3rd Floor, eastern end of
-   the hallway)
+ * When: 1:30-2:50 Tue & 2:00-3:20 Thu, Winter quarter 2020-2021
+ * Where: Virtual (Zoom)
 
 ## Description
 
@@ -33,7 +32,7 @@ In this class we will:
 
 ## Materials
 
- * Class repository: https://github.com/uw-astr-511-w17/astr-511-w17
- * Syllabus: https://github.com/uw-astr-511-w17/astr-511-w17/blob/master/syllabus/syllabus.pdf
+ * Class repository: https://github.com/uw-astr-511-w21/astr-511-w21
+ * Syllabus: https://github.com/uw-astr-511-w21/astr-511-w21/blob/master/syllabus/syllabus.pdf
 
 &nbsp;
